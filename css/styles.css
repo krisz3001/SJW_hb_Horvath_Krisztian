@@ -1,0 +1,32 @@
+header{
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+header h1{
+    font-family: 'cambria', 'times new roman';
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: turquoise;
+    background-color: rgba(255, 255, 255, 0.65);
+    text-align: left;
+}
+header h1 span{
+    font-size: 2rem;
+    text-transform: none;
+    letter-spacing: normal;
+    font-style: italic;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 3rem;
+    }
+}
+ul{
+    list-style-image: url('/img/icon.png');
+}
+ul li{
+    line-height: 25px;
+}
